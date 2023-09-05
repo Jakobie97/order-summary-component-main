@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+}
+
+.hero {
+    width: 100%;
+    border-radius: 12px 12px 0 0;
+    padding-bottom: 25px;
+    
+}
+
+.container {
+   max-width: 450px;
+   margin: 0 auto;
+
+   margin-top: 20vh;
+   background-color: white; 
+   text-align: center;
+
+   border-radius: 12px;
+    
+}
+
+
+.card h3 {
+    
+  font-size: 26px;
+  font-weight: 900;
+
+}
+
+.card p {
+    color: rgb(152, 151, 151);
+    margin-bottom: 25px;
+    
+}
+
+.card h5{
+    margin-top: 25px;
+}
+
+.plan-box {
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.plan-box .box-left, .plan-box {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    
+}
+
+.plan-box a {
+    margin-left: 170px;
+}
+
+.plan-box .box-left div h5 {
+    margin-top: 15px;
+    font-weight: 900;
+    font-size: 16px;
+    color: hsl(223, 47%, 23%);
+}
+
+.plan-box .box-left div p {
+    font-size: 15px;
+    color: hsl(221, 17%, 74%);
+}
+
+.plan-box img {
+    margin-left: 25px;
+    margin-right: 10px;
+}
+
+.right {
+
+    color: black;
+    font-weight: 900;
+    font-size: medium;
+    margin-right: 20px;
+    
+}
+
+.right:hover{
+    color: hsl(245, 75%, 52%);
+    transition: 0.3s;
+}
+
+.payment-button {
+    display: block;
+    text-decoration: none;
+    border-color: hsl(245, 75%, 52%);;
+    color: white;
+    background: hsl(245, 75%, 52%);
+    padding: 15px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    font-weight: 900;
+    font-size: larger;
+
+}
+.payment-button:hover {
+    background-color: rgb(144, 136, 171);
+    transition: 0.3s;
+}
+
+.cancel-order {
+    text-decoration: none;
+    color: rgb(144, 136, 171);
+    display: block;
+    padding-bottom: 40px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-weight: 900;
+    font-size: medium;
+}
+
+.cancel-order:hover{
+
+    color: black;
+    transition: 0.3s;
+
+}
+
+
+
+
+
